@@ -1,0 +1,815 @@
+body {
+  font-family: "Icons";
+  background-color: #fafaf8;
+  margin: 0;
+}
+body a {
+  text-decoration: none;
+  font-family: "Icons";
+  color: black;
+}
+
+button {
+  background-color: #57704b;
+  cursor: pointer;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border: none;
+  font-size: 13px;
+  transition: 0.3s;
+  font-family: "Icons";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+button:hover {
+  color: rgba(0, 221, 255, 0.894);
+  background-color: rgb(87, 0, 250);
+}
+
+@font-face {
+  font-family: "Icons";
+  src: url(assets\f ontsicons.ttf);
+}
+div.welcome {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  background-color: black;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 400px;
+  font-family: "Icons";
+}
+div.welcome .message h1 {
+  color: white;
+  font-size: 13px;
+  font-family: "Icons";
+}
+div.welcome .socialmedia a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: "Icons";
+  padding-right: 6px;
+}
+
+div.menu {
+  font-family: "Icons";
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.menu .logo {
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+div.menu .navbar {
+  font-family: "Icons";
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px -1px 3px -2px rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+div.menu .navbar a {
+  font-family: "Icons";
+  padding-right: 30px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: 0.3s;
+}
+div.menu .navbar a span {
+  color: #6e7f66;
+  transition: 0.3s;
+}
+div.menu .navbar a:hover {
+  color: rgb(69, 0, 207);
+}
+div.menu .navbar a:hover span {
+  color: rgb(255, 0, 0);
+}
+
+div.contents {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 1200px;
+  margin: 50px auto;
+  gap: 70px;
+}
+div.contents div.posts {
+  width: 830px;
+}
+div.contents div.posts .post {
+  box-shadow: 0px 0px 2px 0px rgb(88, 88, 88);
+  font-family: "Icons";
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+div.contents div.posts .post .content-img {
+  font-family: "Icons";
+  background-image: url("..//img/post4.jpeg");
+}
+div.contents div.posts .post .content-img .content {
+  background-color: rgba(0, 0, 0, 0.394);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 830px;
+  height: 400px;
+  justify-content: center;
+  gap: 40px;
+}
+div.contents div.posts .post .content-img .content .logo {
+  font-size: 32px;
+  color: white;
+}
+div.contents div.posts .post .content-img .content .text {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+div.contents div.posts .post .content-img .content .text h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+div.contents div.posts .post .content-img .content .link a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+div.contents div.posts .post .image {
+  width: 100%;
+}
+div.contents div.posts .post .image img {
+  width: 100%;
+}
+div.contents div.posts .post .category {
+  padding-top: 20px;
+}
+div.contents div.posts .post .category a {
+  text-decoration: none;
+  color: #6e7f66;
+  font-style: italic;
+  font-family: "Icons";
+  font-size: 18px;
+}
+div.contents div.posts .post .title {
+  padding-top: 10px;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Icons";
+}
+div.contents div.posts .post .details {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+div.contents div.posts .post .details .author {
+  padding-right: 11px;
+}
+div.contents div.posts .post .details .date {
+  padding-left: 11px;
+}
+div.contents div.posts .post .details img {
+  height: 10px;
+}
+div.contents div.posts .post .details h1 {
+  color: rgb(175, 171, 171);
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Icons";
+}
+div.contents div.posts .post .decor2 {
+  padding-top: 10px;
+}
+div.contents div.posts .post .description {
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "Icons";
+  text-align: start;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-right: 40px;
+  color: rgb(82, 80, 80);
+}
+div.contents div.posts .post .button {
+  padding-top: 30px;
+}
+div.contents div.posts .post .button button {
+  width: 190px;
+}
+div.contents div.posts .post .info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-top: 40px;
+  gap: 400px;
+  font-family: "Icons";
+}
+div.contents div.posts .post .info .views-likes-shares {
+  padding-left: 20px;
+}
+div.contents div.posts .post .info .views-likes-shares a {
+  padding-right: 25px;
+}
+div.contents div.posts .post .info a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(126, 126, 126);
+  font-family: "Icons";
+}
+div.contents div.posts div.relatedposts {
+  font-family: "Icons";
+  display: flex;
+  flex-direction: column;
+}
+div.contents div.posts div.relatedposts .title {
+  align-self: center;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+div.contents div.posts div.relatedposts .title h1 {
+  font-family: "Icons";
+  font-size: 23px;
+}
+div.contents div.posts div.relatedposts .images {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+div.contents div.posts div.relatedposts .images img {
+  width: 100%;
+}
+div.contents div.posts div.relatedposts .older {
+  align-self: flex-end;
+  padding-top: 70px;
+}
+div.contents div.posts div.relatedposts .older button a {
+  color: white;
+}
+div.contents div.posts div.quote {
+  margin-top: 60px;
+  background-image: url("../img/blockquote1.jpg");
+}
+div.contents div.posts div.quote .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8470588235);
+  font-family: "Icons";
+  justify-content: center;
+  width: 830px;
+  height: 400px;
+  gap: 10px;
+}
+div.contents div.posts div.quote .content button {
+  width: 45px;
+  font-size: 20px;
+  font-family: "Icons";
+  background: none;
+  box-shadow: 0px 0px 0px 2px rgb(87, 112, 75);
+  color: rgb(87, 112, 75);
+  transform: rotate(180deg);
+  cursor: default;
+}
+div.contents div.posts div.quote .content h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 22px;
+  font-family: "Icons";
+  padding-left: 150px;
+  padding-right: 150px;
+  color: rgba(0, 0, 0, 0.655);
+}
+div.contents div.posts div.quote .content h2 {
+  font-size: 22px;
+  font-family: "Icons";
+  color: black;
+}
+div.contents div.posts .ad {
+  padding-top: 50px;
+}
+div.contents div.posts .ad img {
+  width: 100%;
+}
+div.contents aside {
+  width: 300px;
+  margin-top: 60px;
+}
+div.contents aside div.card {
+  background-color: rgb(255, 255, 255);
+  font-family: "Icons";
+  box-shadow: 0px 0px 2px 0px rgb(88, 88, 88);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+div.contents aside div.card .title {
+  font-family: "Icons";
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.contents aside div.card .title h1 {
+  font-family: "Icons";
+  color: rgb(180, 178, 178);
+  font-size: 15px;
+  letter-spacing: 4px;
+  padding-left: auto;
+  padding-right: auto;
+}
+div.contents aside div.card .title h2 {
+  font-family: "Icons";
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div.contents aside div.card .deco1 {
+  padding-bottom: 30px;
+}
+div.contents aside div.card .deco1 img {
+  width: 100px;
+}
+div.contents aside div.card .profile {
+  margin: auto;
+}
+div.contents aside div.card .text {
+  text-align: center;
+  padding: 30px 30px 20px 30px;
+}
+div.contents aside div.card .text h1 {
+  font-size: 18px;
+  font-family: "Icons";
+  font-weight: 500;
+}
+div.contents aside div.card .socialmedia {
+  padding-bottom: 40px;
+  padding: auto;
+}
+div.contents aside div.card .socialmedia button {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: black;
+}
+div.contents aside div.card .socialmedia button a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+div.contents aside div.card-categories {
+  background-color: rgb(255, 255, 255);
+  font-family: "Icons";
+  box-shadow: 0px 0px 2px 0px rgb(88, 88, 88);
+  margin-top: 70px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.contents aside div.card-categories .title {
+  font-family: "Icons";
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.contents aside div.card-categories .title h1 {
+  font-family: "Icons";
+  color: rgb(180, 178, 178);
+  font-size: 15px;
+  letter-spacing: 4px;
+  padding-left: auto;
+  padding-right: auto;
+}
+div.contents aside div.card-categories .title h2 {
+  font-family: "Icons";
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div.contents aside div.card-categories .deco1 {
+  font-family: "Icons";
+  padding-bottom: 30px;
+}
+div.contents aside div.card-categories .deco1 img {
+  width: 100px;
+}
+div.contents aside div.card-categories .list {
+  display: flex;
+  flex-direction: column;
+  font-family: "Icons";
+  width: 155px;
+  align-self: flex-start;
+}
+div.contents aside div.card-categories .list a {
+  text-decoration: none;
+  padding-bottom: 20px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6509803922);
+  padding-left: 25px;
+  font-family: "Icons";
+}
+div.contents aside .card-recentposts {
+  background-color: rgb(255, 255, 255);
+  font-family: "Icons";
+  box-shadow: 0px 0px 2px 0px rgb(88, 88, 88);
+  margin-top: 70px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.contents aside .card-recentposts .title {
+  font-family: "Icons";
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.contents aside .card-recentposts .title h1 {
+  font-family: "Icons";
+  color: rgb(180, 178, 178);
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding-left: auto;
+  padding-right: auto;
+}
+div.contents aside .card-recentposts .title h2 {
+  font-family: "Icons";
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div.contents aside .card-recentposts .deco1 {
+  font-family: "Icons";
+  padding-bottom: 30px;
+}
+div.contents aside .card-recentposts .deco1 img {
+  width: 100px;
+}
+div.contents aside .card-recentposts .info-post {
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  text-align: start;
+  font-family: "Icons";
+}
+div.contents aside .card-recentposts .info-post .title-date {
+  padding-left: 20px;
+  align-items: center;
+  padding-top: 3px;
+}
+div.contents aside .card-recentposts .info-post .title-date a {
+  font-size: 16px;
+  font-weight: 300;
+  padding-right: 33px;
+}
+div.contents aside .card-recentposts .info-post .title-date h1 {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.51);
+}
+div.contents aside .card-archives {
+  background-color: rgb(255, 255, 255);
+  font-family: "Icons";
+  box-shadow: 0px 0px 2px 0px rgb(88, 88, 88);
+  margin-top: 70px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+div.contents aside .card-archives .title {
+  font-family: "Icons";
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.contents aside .card-archives .title h1 {
+  font-family: "Icons";
+  color: rgb(180, 178, 178);
+  font-size: 15px;
+  letter-spacing: 4px;
+  padding-left: auto;
+  padding-right: auto;
+}
+div.contents aside .card-archives .title h2 {
+  font-family: "Icons";
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div.contents aside .card-archives .deco1 {
+  font-family: "Icons";
+  padding-bottom: 30px;
+}
+div.contents aside .card-archives .deco1 img {
+  width: 100px;
+}
+div.contents aside .card-archives input {
+  width: 80%;
+  height: 30px;
+}
+div.contents aside .card-tags {
+  background-color: rgb(255, 255, 255);
+  font-family: "Icons";
+  box-shadow: 0px 0px 2px 0px rgb(88, 88, 88);
+  margin-top: 70px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.contents aside .card-tags .title {
+  font-family: "Icons";
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.contents aside .card-tags .title h1 {
+  font-family: "Icons";
+  color: rgb(180, 178, 178);
+  font-size: 15px;
+  letter-spacing: 4px;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+}
+div.contents aside .card-tags .title h2 {
+  font-family: "Icons";
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div.contents aside .card-tags .deco1 {
+  font-family: "Icons";
+  padding-bottom: 30px;
+}
+div.contents aside .card-tags .deco1 img {
+  width: 100px;
+}
+div.contents aside .card-tags .buttons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 8px;
+  font-family: "Icons";
+  padding-bottom: 60px;
+}
+div.contents aside .card-tags .buttons button {
+  font-family: "Icons";
+  background-color: white;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.19);
+  width: auto;
+}
+div.contents aside .card-tags .buttons button a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5019607843);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Icons";
+}
+div.contents aside div.ad {
+  margin-top: 70px;
+  width: 300px;
+}
+
+div.cardsv2 {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+div.cardsv2 div.cardv2 {
+  background-color: rgb(255, 255, 255);
+  font-family: "Icons";
+  box-shadow: 0px 0px 2px 0px rgb(88, 88, 88);
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+}
+div.cardsv2 div.cardv2 .title {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.cardsv2 div.cardv2 .title img {
+  padding-left: auto;
+  padding-right: auto;
+}
+div.cardsv2 div.cardv2 .title h1 {
+  font-family: "Icons";
+  font-size: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div.cardsv2 div.cardv2 .profile {
+  display: flex;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding-left: 30px;
+}
+div.cardsv2 div.cardv2 .profile h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+div.cardsv2 div.cardv2 .description {
+  padding-left: 10px;
+}
+div.cardsv2 div.cardv2 .description h1 {
+  font-size: 17px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+div.cardsv2 div.cardv2 .info-post {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 25px;
+  text-align: start;
+  font-family: "Icons";
+  padding-left: 20px;
+}
+div.cardsv2 div.cardv2 .info-post .title-date {
+  padding-left: 20px;
+  align-items: center;
+  padding-top: 3px;
+  padding-right: 23px;
+}
+div.cardsv2 div.cardv2 .info-post .title-date a {
+  font-size: 15px;
+  font-weight: 30px;
+}
+div.cardsv2 div.cardv2 .info-post .title-date h1 {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.51);
+}
+div.cardsv2 div.cardv2 .info-post .comments {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+div.cardsv2 div.cardv2 .info-post .comments a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(126, 126, 126);
+  font-family: "Icons";
+}
+div.cardsv2 div.cardv2 .info-post .comments .nr a {
+  font-size: 17px;
+  font-weight: 100;
+}
+div.cardsv2 div.cardv2 .pinterest {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0 0 0 10px;
+}
+div.cardsv2 div.cardv2 .pinterest img {
+  padding-top: 0.2rem;
+}
+
+div.newsletter {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+div.newsletter .text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+div.newsletter .text h2 {
+  font-family: "Icons";
+  font-size: 15px;
+  font-weight: 500;
+  padding-right: 60px;
+  color: rgba(0, 0, 0, 0.831);
+}
+div.newsletter .text h1 {
+  font-weight: 600;
+  font-family: "Icons";
+  font-size: 32px;
+}
+div.newsletter .sub {
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-self: center;
+}
+div.newsletter .sub .icon {
+  position: absolute;
+  align-self: center;
+  left: 10px;
+}
+div.newsletter .sub input {
+  display: flex;
+  padding: 0 30px;
+  flex-grow: 1;
+}
+div.newsletter .sub input::-moz-placeholder {
+  font-family: "Icons";
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.448);
+}
+div.newsletter .sub input:-ms-input-placeholder {
+  font-family: "Icons";
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.448);
+}
+div.newsletter .sub input::placeholder {
+  font-family: "Icons";
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.448);
+}
+
+div.more-info {
+  font-family: "Icons";
+}
+div.more-info .buttons {
+  display: flex;
+}
+div.more-info .buttons button {
+  width: 280px;
+  height: 50px;
+  font-size: 10px;
+  background-color: rgb(32, 32, 32);
+}
+div.more-info .buttons .black button {
+  width: 250px;
+  height: 50px;
+  background-color: rgb(22, 22, 22);
+}
+div.more-info .insta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.113);
+  background-image: url("../img/social-background.jpg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 1200px 1200px 1200px 900px rgba(0, 0, 0, 0.712);
+  padding-top: 55px;
+  padding-bottom: 60px;
+  width: 100%;
+  height: 70px;
+}
+div.more-info .insta a {
+  font-family: "Icons";
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+div.more-info .insta h1 {
+  font-family: "Icons";
+  font-size: 18px;
+  font-weight: 100;
+  color: #ffffff;
+}
+div.more-info .copyright {
+  font-family: "Icons";
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(22, 22, 22);
+  padding-right: 80px;
+}
+div.more-info .copyright h1 {
+  font-size: 13px;
+  font-weight: 100;
+  font-family: "Icons";
+  color: white;
+}

@@ -1,0 +1,229 @@
+button {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  padding: 18px 50px;
+  background: #595C69;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  opacity: 0.9;
+}
+button.accent {
+  background: #FFBF9D;
+}
+
+div.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 398px;
+  padding-right: 396px;
+}
+div.cards div.card {
+  margin-right: 100px;
+}
+div.cards div.card .category {
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.cards div.card .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+div.cards div.card .time {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+}
+div.cards div.card1 .category {
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.cards div.card1 .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+div.cards div.card1 .text {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+}
+
+div.pagination a {
+  height: 19;
+  padding: 10px;
+  color: #707279;
+  font-size: 16px;
+  width: 338;
+  text-decoration: none;
+  font-family: "Montserrat-medium", sans-serif;
+}
+div.pagination a:hover {
+  color: rgb(138, 229, 20);
+}
+div.pagination .page1 {
+  font-size: 16px;
+  font-family: "Montserrat-semibold", sans-serif;
+  color: #FFBF9D;
+}
+
+div.box {
+  display: flex;
+  background-color: #FFF8F2;
+}
+div.box .content {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  flex-basis: 50%;
+  margin-top: 81px;
+  margin-left: 92px;
+}
+div.box .content h1.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+div.box .content h1.text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+div.box .button {
+  flex-basis: 50%;
+  text-align: right;
+  padding: 122px 92px;
+}
+div.box .button button.emailadd {
+  height: 56px;
+  display: inline-block;
+  background-color: #FFBF9D;
+  color: white;
+  font-size: 15;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+div.box .button button.emailadd:hover {
+  background-color: rgb(142, 101, 8);
+  transition: 0.3s;
+}
+
+div.cards1 {
+  display: flex;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+div.cards1 div.content {
+  padding: 96px;
+}
+div.cards1 div.content .image {
+  width: 352px;
+  height: 500px;
+}
+div.cards1 div.content .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: #303036;
+}
+div.cards1 div.content .subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #9FA1AA;
+  margin-top: 10px;
+}
+div.cards1 div.content .text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 32px;
+}
+div.cards1 div.content .button {
+  width: 220px;
+  height: 56px;
+  background-color: #595C69;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: 32px;
+}
+div.cards1 div.content .button:hover {
+  background-color: #1e2e5c;
+  transition: 0.3s;
+}
+
+div.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 80px;
+}
+div.box1 .logo {
+  text-align: start;
+}
+div.box1 .logo a {
+  text-decoration: none;
+  color: black;
+  font-family: "Mrs Saint Delafield", sans-serif;
+  font-size: 32px;
+}
+div.box1 .list {
+  text-align: end;
+}
+div.box1 .list a {
+  text-decoration: none;
+  color: #707070;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  justify-content: space-between;
+  padding-inline: 30px;
+}
+div.box1 .list a:hover {
+  color: rgb(141, 153, 206);
+}
+
+div.copyrightlinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 42px 90px;
+}
+div.copyrightlinks .copyright h1 {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #9FA1AA;
+  text-align: start;
+}
+div.copyrightlinks .links a {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: end;
+  text-decoration: none;
+  color: #9FA1AA;
+}
+div.copyrightlinks .links a:hover {
+  color: #773800;
+}

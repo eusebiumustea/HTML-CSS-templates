@@ -1,0 +1,846 @@
+body {
+    font-family: "Icons";
+    background-color: #fafaf8;
+    margin: 0;
+    a {
+        text-decoration: none;
+        font-family: "Icons";
+        color: black;
+    }
+}
+button {
+    background-color: #57704b;
+    cursor: pointer;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 13px;
+    transition: 0.3s;
+    font-family: "Icons";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    &:hover {
+        color: rgba(0, 221, 255, 0.894);
+        background-color: rgb(87, 0, 250);
+    }
+}
+@font-face {
+    font-family: "Icons";
+    src: url(assets\fonts\icons.ttf);
+}
+
+
+div.welcome { 
+        padding-top: 5px; 
+        padding-bottom: 5px;
+        display: flex;
+        background-color: black;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        gap: 400px;
+        font-family: "Icons";
+        .message {
+            h1 {
+              color: white;
+              font-size: 13px;
+              font-family: "Icons";
+            }
+        }
+        .socialmedia {
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 13px;
+                font-family: "Icons";
+                padding-right: 6px;
+                
+            }
+        }
+
+
+    }
+div.menu {
+    font-family: "Icons";
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .logo {
+        padding-bottom: 20px;
+        padding-top: 40px;
+    }
+    .navbar {
+        font-family: "Icons";
+        padding-bottom: 20px;
+        padding-top: 20px; 
+        background-color: rgb(255, 255, 255);  
+        box-shadow: 0px -1px 3px -2px rgba(0, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        a {
+            font-family: "Icons";
+            padding-right: 30px;
+            font-size: 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            span {
+                color: #6e7f66;
+                transition: 0.3s;
+            }
+            transition: 0.3s;
+            &:hover {
+               color: rgb(69, 0, 207);
+               
+                span {
+                    color: rgb(255, 0, 0);
+                }
+            }
+        }
+    }
+        
+    }
+    div.contents {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 1200px;
+        margin: 50px auto;
+        gap: 70px;
+        div.posts {
+        width: 830px;
+        .post {
+        box-shadow: 0px 0px 2px 0px rgba(88, 88, 88, 1);
+        font-family: "Icons";
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin-top: 60px; 
+            .content-img {
+            font-family: "Icons";
+            background-image: url('..//img/post4.jpeg');
+            .content {
+            background-color: rgba(0, 0, 0, 0.394);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 830px;
+            height: 400px;
+            justify-content: center;
+            gap: 40px;
+            .logo {
+               font-size: 32px;
+               color: white;
+            }
+            .text {
+            padding-left: 150px;
+            padding-right: 150px;
+                h1 {
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+            .link {
+                a {
+                    text-decoration: none;
+                    font-size: 16px; 
+                    color: white;
+                }
+            }
+            } 
+        }
+            .image {
+            width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            .category {  
+            padding-top: 20px;
+                a {
+                    text-decoration: none;
+                    color: #6e7f66;
+                    font-style: italic;
+                    font-family: "Icons";
+                    font-size: 18px;           
+                }
+            }
+            .title {
+                padding-top: 10px;
+                color: black;
+                font-weight: 600;
+                font-size: 20px;
+                font-family: "Icons";
+            }
+            .details {
+                padding-top: 20px;
+                display: flex;
+                align-items: center;
+                .author {
+                    padding-right: 11px;
+                }
+                .date {
+                    padding-left: 11px;
+                }
+                img {
+                    height: 10px;
+                }
+                h1 {
+                    color: rgb(175, 171, 171);
+                    font-size: 15px;
+                    font-weight: 300;
+                    font-family: "Icons";
+                }
+            }
+            .decor2 {        
+                    padding-top: 10px;
+            }
+            .description {
+                font-size: 16px;
+                font-weight: 200;
+                font-family: "Icons";
+                text-align: start;
+                padding-left: 40px;
+                padding-top: 20px;
+                padding-right: 40px;
+                color: rgb(82, 80, 80);;
+            }
+            .button {
+                padding-top: 30px;
+                button {
+                    width: 190px;
+                }
+            }
+                
+            
+            .info {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 40px;
+            padding-right: 20px;
+            padding-top: 40px;
+            gap: 400px;
+            font-family: "Icons";
+        
+            .views-likes-shares {
+            padding-left: 20px;
+                a {
+                    padding-right: 25px;
+                }
+            }
+            
+            
+                a {
+                text-decoration: none;
+                font-size: 15px;
+                font-weight: 300;
+                color: rgb(126, 126, 126);
+                font-family: "Icons";
+                }  
+            }
+         
+        }
+        
+        div.relatedposts {
+            font-family: "Icons";
+            display: flex;
+            flex-direction: column;
+            .title {
+            align-self: center;
+            padding-top: 35px;
+            padding-bottom: 25px;
+                h1 {
+                    font-family: "Icons";
+                    font-size: 23px;
+                }
+            }
+        
+            .images {
+                gap: 20px;
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 100%;
+                }
+            }
+            .older {
+                align-self: flex-end;
+                padding-top: 70px;
+                button {
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+      div.quote {
+    margin-top: 60px; 
+    background-image: url('../img/blockquote1.jpg');
+        .content {
+           display: flex;
+           flex-direction: column;
+           align-items: center;       
+           background-color: #ffffffd8;
+           font-family: "Icons";
+           justify-content: center;
+           width: 830px;
+           height: 400px;
+           gap: 10px;
+           button {
+            width: 45px;
+            font-size: 20px;
+            font-family: "Icons";
+            background: none;
+            box-shadow: 0px 0px 0px 2px rgba(87, 112, 75, 1);
+            color: rgba(87, 112, 75, 1);
+            transform: rotate(180deg);
+            cursor: default;
+           }
+           h1 {
+            text-align: center;
+            font-style: italic;
+            font-size: 22px;
+            font-family: "Icons";
+            padding-left: 150px;
+            padding-right: 150px;
+            color: rgba(0, 0, 0, 0.655);
+           }
+           h2 {
+            font-size: 22px;
+            font-family: "Icons";
+            color: black;
+           }
+          
+         
+      }
+    }
+    .ad {
+    padding-top: 50px;
+        img {
+            width: 100%;
+        }
+    }
+}      
+        aside {
+        width: 300px;
+        margin-top: 60px;
+        div.card {
+        background-color: rgb(255, 255, 255);
+        font-family: "Icons";
+        box-shadow: 0px 0px 2px 0px rgba(88, 88, 88, 1);
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+            .title {
+             font-family: "Icons";
+             padding-top: 30px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+                h1 {
+                    font-family: "Icons";
+                    color: rgb(180, 178, 178);
+                    font-size: 15px;
+                    letter-spacing: 4px;
+                    padding-left: auto;
+                    padding-right: auto;
+                }
+                h2 {
+                    font-family: 'Icons';
+                    font-size: 14px;
+                    font-weight: 600;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    
+                    
+                }
+            }
+            .deco1 {
+                padding-bottom: 30px;
+                img {
+                    width: 100px;
+                }
+            }
+            .profile {
+               margin: auto;
+            }
+            .text {
+               text-align: center;
+               padding: 30px 30px 20px 30px;
+                h1 {
+                    font-size: 18px;
+                    font-family: 'Icons';
+                    font-weight: 500;
+                }   
+                }
+            .socialmedia {
+            padding-bottom: 40px;
+            padding: auto;
+                button {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 20px;
+                    background-color: black;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 13px;
+                    }
+                }
+        
+            }
+                
+            }
+        
+        
+        div.card-categories {
+            background-color: rgb(255, 255, 255);
+            font-family: "Icons";
+            box-shadow: 0px 0px 2px 0px rgba(88, 88, 88, 1);
+            margin-top: 70px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title {
+               font-family: "Icons";
+               padding-top: 30px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+                   h1 {
+                       font-family: "Icons";
+                        color: rgb(180, 178, 178);
+                        font-size: 15px;
+                        letter-spacing: 4px;
+                        padding-left: auto;
+                        padding-right: auto;
+                   }
+                   h2 {
+                       font-family: 'Icons';
+                       font-size: 14px;
+                       font-weight: 600;
+                       padding-left: 15px;
+                       padding-right: 15px;
+                   }
+               }
+               .deco1 {
+                font-family: "Icons";
+                padding-bottom: 30px;
+                img {
+                    width: 100px;
+                }
+            }
+            .list {
+                display: flex;
+                flex-direction: column;
+                font-family: "Icons";
+                width: 155px;
+                align-self: flex-start;
+                a {
+                    text-decoration: none;
+                    padding-bottom: 20px;
+                    font-size: 16px;
+                    color: #000000a6;
+                    padding-left: 25px;
+                    font-family: "Icons";
+                }
+            }
+        }
+        .card-recentposts {
+            background-color: rgb(255, 255, 255);
+            font-family: "Icons";
+            box-shadow: 0px 0px 2px 0px rgba(88, 88, 88, 1);
+            margin-top: 70px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title {
+               font-family: "Icons";
+               padding-top: 30px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+                   h1 {
+                       font-family: "Icons";
+                        color: rgb(180, 178, 178);
+                        font-size: 15px;
+                        letter-spacing: 3px;
+                        padding-left: auto;
+                        padding-right: auto;
+                   }
+                   h2 {
+                       font-family: 'Icons';
+                       font-size: 14px;
+                       font-weight: 600;
+                       padding-left: 15px;
+                       padding-right: 15px;
+                   }
+               }
+               .deco1 {
+                font-family: "Icons";
+                padding-bottom: 30px;
+                img {
+                    width: 100px;
+                }
+            }
+            .info-post {
+                display: flex;
+                padding-left: 30px;
+                padding-bottom: 20px;
+                text-align: start;
+                font-family: 'Icons';
+                .title-date {
+                padding-left: 20px;
+                align-items: center;
+                padding-top: 3px;
+                
+                    a {
+                       font-size: 16px;
+                       font-weight: 300;
+                       padding-right: 33px;
+                    }
+                    h1 {
+                        font-size: 12px;
+                        color: rgba(0, 0, 0, 0.51);
+                    }
+                }
+            
+            }
+        }
+        .card-archives {
+            background-color: rgb(255, 255, 255);
+            font-family: "Icons";
+            box-shadow: 0px 0px 2px 0px rgba(88, 88, 88, 1);
+            margin-top: 70px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .title {
+               font-family: "Icons";
+               padding-top: 30px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+                   h1 {
+                       font-family: "Icons";
+                        color: rgb(180, 178, 178);
+                        font-size: 15px;
+                        letter-spacing: 4px;
+                        padding-left: auto;
+                        padding-right: auto;
+                   }
+                   h2 {
+                       font-family: 'Icons';
+                       font-size: 14px;
+                       font-weight: 600;
+                       padding-left: 15px;
+                       padding-right: 15px;
+                   }
+               }
+               .deco1 {
+                font-family: "Icons";
+                padding-bottom: 30px;
+                img {
+                    width: 100px;
+                }
+                
+           }
+             input {
+                    width: 80%;
+                    height: 30px;
+                }   
+
+        }   
+        .card-tags {
+            background-color: rgb(255, 255, 255);
+            font-family: "Icons";
+            box-shadow: 0px 0px 2px 0px rgba(88, 88, 88, 1);
+            margin-top: 70px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title {
+               font-family: "Icons";
+               padding-top: 30px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+                   h1 {
+                       font-family: "Icons";
+                        color: rgb(180, 178, 178);
+                        font-size: 15px;
+                        letter-spacing: 4px;  
+                        padding-left: auto;
+                        padding-right: auto;  
+                        text-align: center;                 
+                   }
+                   h2 {
+                       font-family: 'Icons';
+                       font-size: 14px;
+                       font-weight: 600;
+                      padding-left: 15px;
+                       padding-right: 15px;
+                   }
+               }
+               .deco1 {
+                font-family: "Icons";
+                padding-bottom: 30px;
+                img {
+                    width: 100px;
+                }
+                }
+              .buttons {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 8px;
+            font-family: "Icons";
+            padding-bottom: 60px;
+               button {
+            font-family: "Icons";
+            background-color: white;
+            box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.19);
+            width: auto;
+                a {
+                    text-decoration: none;
+                    color: #00000080;
+                    font-size: 14px;
+                    font-weight: 600;
+                    font-family: "Icons";
+                }
+               } 
+              }
+
+        }   
+        div.ad {
+            margin-top: 70px;
+            width: 300px;
+        }
+    }     
+}
+    div.cardsv2 {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 50px auto;
+        div.cardv2 {
+            background-color: rgb(255, 255, 255);
+            font-family: "Icons";
+            box-shadow: 0px 0px 2px 0px rgba(88, 88, 88, 1);
+            width: 330px;
+            display: flex;
+            flex-direction: column;
+                .title {
+                    padding-top: 20px;
+                    padding-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        padding-left: auto;
+                        padding-right: auto;
+                    }
+                    h1 {
+                        font-family: "Icons";
+                        font-size: 17px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        
+                    }
+                }
+                .profile {
+                    display: flex;
+                    padding-bottom: 25px;  
+                    justify-content: center; 
+                    align-items: center;  
+                    gap: 35px;
+                    padding-left: 30px;          
+                    h1 {
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+                .description {
+                padding-left: 10px;
+                    h1 {
+                        font-size: 17px;
+                        font-weight: 300;
+                        padding-bottom: 20px;
+                    }
+                }
+                .info-post {
+                    display: flex;
+                    align-items: flex-start;
+                    padding-bottom: 25px;
+                    text-align: start;
+                    font-family: 'Icons';
+                    padding-left: 20px;
+                    .title-date {
+                    padding-left: 20px;
+                    align-items: center;
+                    padding-top: 3px;
+                    padding-right: 23px;
+                    
+                        a {
+                           font-size: 15px;
+                           font-weight: 30px;
+                        }
+                        h1 {
+                            font-size: 11px;
+                            color: rgba(0, 0, 0, 0.51);
+                        }
+                    }
+                    .comments {
+                    padding-right: 10px;
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                        a {
+                            text-decoration: none;
+                            font-size: 14px;
+                            font-weight: 300;
+                            color: rgb(126, 126, 126);
+                            font-family: "Icons";
+                            }
+                        .nr {
+                            a {
+                                font-size: 17px;
+                                font-weight: 100;
+                            }
+                        }  
+                    }
+                
+                }
+                .pinterest {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                margin: 0 0 0 10px;
+                //padding-bottom: 30px;
+                img {
+                    padding-top: 0.2rem;
+                }
+                   }
+                }
+            
+
+            }
+    div.newsletter {
+        display: flex;
+        width: 1200px;
+        justify-content: space-between;
+        margin: 50px auto;
+                .text {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                    h2 {
+                    font-family: "Icons";
+                    font-size: 15px;
+                    font-weight: 500;
+                    padding-right: 60px;
+                    color: rgba(0, 0, 0, 0.831);
+                }
+                    h1 {
+                        font-weight: 600;
+                        font-family: "Icons";
+                        font-size: 32px;
+                    }
+                }
+                .sub {
+                    width: 50%;
+                    position: relative;
+                    display: flex;
+                    align-self: center;
+                    
+                    .icon{
+                        position: absolute;
+                        align-self: center;
+                        left: 10px;
+                    }
+                    input{
+                        display: flex;
+                        padding: 0 30px;
+                        flex-grow: 1; 
+                    }
+                  input::placeholder {
+                            font-family: "Icons";
+                            font-weight: 600;
+                            color: rgba(0, 0, 0, 0.448);
+                        }  
+                }
+            }
+div.more-info {
+    font-family: "Icons";
+        .buttons {
+        display: flex;
+            button {
+            width: 280px;
+            height: 50px;
+            font-size: 10px;
+                background-color: rgb(32, 32, 32);
+            }
+            .black {
+            button {
+                width: 250px;
+                height: 50px;
+                background-color: rgb(22, 22, 22);
+            }
+                
+            }
+        }
+        .insta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.113);
+            background-image: url('../img/social-background.jpg');
+            background-position: center;
+            background-size: cover;
+            box-shadow: inset 1200px 1200px 1200px 900px rgba(0, 0, 0, 0.712) ;
+            padding-top: 55px;
+            padding-bottom: 60px;
+            width: 100%;
+            height: 70px;
+            a {
+                font-family: "Icons";
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 25px;
+                padding-bottom: 10px;
+            }
+            h1 {
+                font-family: "Icons";
+                font-size: 18px;
+                font-weight: 100;
+                color: #ffffff;
+            }
+        }
+           .copyright {
+        font-family: "Icons";
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: rgb(22, 22, 22);
+        padding-right: 80px;
+        h1 {
+            font-size: 13px;
+            font-weight: 100;
+            font-family: "Icons";
+            color: white;
+        }
+      }
+    }

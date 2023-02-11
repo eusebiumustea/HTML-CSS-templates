@@ -1,0 +1,437 @@
+body {
+  font-family: "Icons";
+  background-color: #fafaf8;
+  margin: 0;
+}
+
+button {
+  background-color: #6e7f66;
+  cursor: pointer;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border: none;
+  font-size: 14px;
+  transition: 0.3s;
+  font-family: "Icons";
+}
+button:hover {
+  color: aqua;
+  background-color: cadetblue;
+}
+
+@font-face {
+  font-family: "Icons";
+  src: url(assets\f ontsicons.ttf);
+}
+div.welcome {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  align-items: center;
+}
+div.welcome .message {
+  padding-right: 80px;
+}
+div.welcome .message h1 {
+  color: white;
+  font-size: 13px;
+  font-family: "Icons";
+}
+div.welcome .socialmedia {
+  padding-left: 80px;
+}
+div.welcome .socialmedia a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: "Icons";
+  padding-right: 6px;
+}
+
+div.menu {
+  font-family: "Icons";
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+div.menu .logo {
+  align-self: center;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+div.menu .navbar {
+  font-family: "Icons";
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px -1px 3px -2px rgb(0, 0, 0);
+  padding-left: 420px;
+}
+div.menu .navbar a {
+  font-family: "Icons";
+  padding-right: 30px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: 0.3s;
+}
+div.menu .navbar a span {
+  color: #6e7f66;
+  transition: 0.3s;
+}
+div.menu .navbar a:hover {
+  color: rgb(69, 0, 207);
+}
+div.menu .navbar a:hover span {
+  color: rgb(255, 0, 0);
+}
+
+div.contents {
+  display: flex;
+  width: 1200px;
+  margin: 50px auto;
+  gap: 70px;
+}
+div.contents div.posts .post {
+  box-shadow: 0px 0px 2px 0px rgb(88, 88, 88);
+  font-family: "Icons";
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.contents div.posts .post .image img {
+  width: 100%;
+}
+div.contents div.posts .post .category {
+  padding-top: 20px;
+}
+div.contents div.posts .post .category a {
+  text-decoration: none;
+  color: #6e7f66;
+  font-style: italic;
+  font-family: "Icons";
+  font-size: 18px;
+}
+div.contents div.posts .post .title {
+  padding-top: 10px;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Icons";
+}
+div.contents div.posts .post .details {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+div.contents div.posts .post .details .author {
+  padding-right: 11px;
+}
+div.contents div.posts .post .details .date {
+  padding-left: 11px;
+}
+div.contents div.posts .post .details img {
+  height: 10px;
+}
+div.contents div.posts .post .details h1 {
+  color: rgb(175, 171, 171);
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Icons";
+}
+div.contents div.posts .post .decor2 {
+  padding-top: 10px;
+}
+div.contents div.posts .post .description {
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "Icons";
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-right: 50px;
+  color: rgb(82, 80, 80);
+}
+div.contents div.posts .post .button {
+  padding-top: 30px;
+}
+div.contents div.posts .post .button button {
+  width: 190px;
+}
+div.contents div.posts .post .info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-top: 40px;
+  gap: 360px;
+}
+div.contents div.posts .post .info .views-likes-shares {
+  padding-left: 20px;
+}
+div.contents div.posts .post .info .views-likes-shares a {
+  padding-right: 25px;
+}
+div.contents div.posts .post .info a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(126, 126, 126);
+  font-family: "Icons";
+}
+div.contents div.posts div.relatedposts {
+  font-family: "Icons";
+  display: flex;
+  flex-direction: column;
+}
+div.contents div.posts div.relatedposts .title {
+  align-self: center;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+div.contents div.posts div.relatedposts .title h1 {
+  font-family: "Icons";
+  font-size: 19px;
+}
+div.contents div.posts div.relatedposts .images {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+div.contents div.posts div.relatedposts .images img {
+  width: 250px;
+}
+div.contents aside div.card {
+  background-color: rgb(255, 255, 255);
+  font-family: "Icons";
+  box-shadow: 0px 0px 2px 0px rgb(88, 88, 88);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+div.contents aside div.card .title {
+  font-family: "Icons";
+  padding-top: 30px;
+  display: flex;
+  padding-left: 25px;
+}
+div.contents aside div.card .title h1 {
+  font-family: "Icons";
+  color: rgb(180, 178, 178);
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+div.contents aside div.card .title h2 {
+  font-family: "Icons";
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div.contents aside div.card .deco1 {
+  margin-left: 110px;
+  padding-bottom: 30px;
+}
+div.contents aside div.card .deco1 img {
+  width: 100px;
+}
+div.contents aside div.card .profile {
+  align-self: center;
+  margin: auto;
+}
+div.contents aside div.card .text {
+  text-align: center;
+  padding: 30px 30px 20px 30px;
+}
+div.contents aside div.card .text h1 {
+  font-size: 18px;
+  font-family: "Icons";
+  font-weight: 500;
+}
+div.contents aside div.card .socialmedia {
+  padding-bottom: 40px;
+  align-self: center;
+  padding: auto;
+}
+div.contents aside div.card .socialmedia button {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: black;
+}
+div.contents aside div.card .socialmedia button a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+div.contents div.card-categories {
+  background-color: rgb(255, 255, 255);
+  font-family: "Icons";
+  box-shadow: 0px 0px 2px 0px rgb(88, 88, 88);
+  margin-top: 70px;
+}
+div.contents div.card-categories .title {
+  font-family: "Icons";
+  padding-top: 30px;
+  display: flex;
+  padding-left: 20px;
+}
+div.contents div.card-categories .title h1 {
+  font-family: "Icons";
+  color: rgb(180, 178, 178);
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+div.contents div.card-categories .title h2 {
+  font-family: "Icons";
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div.contents div.card-categories .deco1 {
+  font-family: "Icons";
+  margin-left: 110px;
+  padding-bottom: 30px;
+}
+div.contents div.card-categories .deco1 img {
+  width: 100px;
+}
+div.contents div.card-categories .list {
+  display: flex;
+  flex-direction: column;
+  font-family: "Icons";
+  padding-left: 25px;
+}
+div.contents div.card-categories .list a {
+  text-decoration: none;
+  padding-bottom: 20px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6509803922);
+}
+
+div.cardv2 {
+  background-color: rgb(255, 255, 255);
+  font-family: "Icons";
+  margin-right: 1150px;
+  padding-bottom: 25px;
+  box-shadow: 0px 0px 2px 0px rgb(88, 88, 88);
+}
+div.cardv2 .title {
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+div.cardv2 .title img {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+div.cardv2 .title h1 {
+  font-family: "Icons";
+  font-size: 17px;
+}
+div.cardv2 .profile {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-bottom: 30px;
+}
+div.cardv2 .profile h1 {
+  font-size: 23px;
+  padding-left: 50px;
+  padding-top: 12px;
+}
+div.cardv2 .description {
+  padding-left: 15px;
+}
+div.cardv2 .description h1 {
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+div.newsletter .title h1 {
+  font-weight: 600;
+  font-family: "Icons";
+  font-size: 32px;
+}
+div.newsletter .text h1 {
+  font-family: "Icons";
+  font-size: 18px;
+  font-weight: 500;
+}
+div.newsletter .sub {
+  display: flex;
+}
+
+div.more-info {
+  font-family: "Icons";
+}
+div.more-info .buttons {
+  display: flex;
+}
+div.more-info .buttons button {
+  width: 280px;
+  height: 50px;
+  font-size: 10px;
+  background-color: rgb(32, 32, 32);
+}
+div.more-info .buttons .black button {
+  width: 250px;
+  height: 50px;
+  background-color: rgb(22, 22, 22);
+}
+div.more-info .insta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.113);
+  background-image: url("../img/social-background.jpg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 1200px 1200px 1200px 900px rgba(0, 0, 0, 0.712);
+  padding-top: 55px;
+  padding-bottom: 60px;
+  width: 100%;
+  height: 70px;
+}
+div.more-info .insta a {
+  font-family: "Icons";
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+div.more-info .insta h1 {
+  font-family: "Icons";
+  font-size: 18px;
+  font-weight: 100;
+  color: #ffffff;
+}
+div.more-info .copyright {
+  font-family: "Icons";
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(22, 22, 22);
+}
+div.more-info .copyright h1 {
+  font-size: 13px;
+  font-weight: 100;
+  font-family: "Icons";
+  color: white;
+  padding-right: 30px;
+}
+div.more-info .copyright img {
+  padding-right: 85px;
+}

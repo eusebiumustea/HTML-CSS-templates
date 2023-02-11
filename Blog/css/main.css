@@ -1,0 +1,754 @@
+html, body {
+  margin: 0;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  padding: 18px 50px;
+  background: #595C69;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+header {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+header div.navbar {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 80px;
+}
+header div.navbar .logo {
+  text-align: start;
+}
+header div.navbar .logo a {
+  text-decoration: none;
+  color: black;
+  font-family: "Mrs Saint Delafield", sans-serif;
+  font-size: 32px;
+}
+header div.navbar .list {
+  text-align: end;
+}
+header div.navbar .list a {
+  text-decoration: none;
+  color: #707070;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  justify-content: space-between;
+  padding-inline: 30px;
+}
+header div.navbar .list a:hover {
+  color: rgb(141, 153, 206);
+}
+
+div.info {
+  padding: 80px 199px;
+}
+div.info .title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  color: #303036;
+  font-weight: 500;
+}
+div.info .text h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: black;
+  font-weight: 300;
+  padding-top: 31px;
+  padding-bottom: 20px;
+  padding-right: 640px;
+}
+div.info .button {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  padding: 18px 50px;
+  background: #595C69;
+  border: 0;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+div.info .button:hover {
+  background-color: #1e2e5c;
+}
+
+div.recommendations {
+  background-color: #FFF8F2;
+}
+div.recommendations .cards {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 89px;
+  transform: translateY(-59px);
+}
+div.recommendations .cards .HowToPickThePerfectPeach {
+  margin-bottom: 103px;
+}
+div.recommendations .cards .HowToPickThePerfectPeach .category {
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.recommendations .cards .HowToPickThePerfectPeach .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+div.recommendations .cards .HowToPickThePerfectPeach .text {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+  padding-right: 34px;
+}
+div.recommendations .cards .MinimalistKitchen {
+  margin-bottom: 103px;
+}
+div.recommendations .cards .MinimalistKitchen .category {
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.recommendations .cards .MinimalistKitchen .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+div.recommendations .cards .MinimalistKitchen .text {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+  padding-right: 34px;
+}
+div.recommendations .cards .OrganiseYourSpace {
+  margin-bottom: 103px;
+}
+div.recommendations .cards .OrganiseYourSpace .category {
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.recommendations .cards .OrganiseYourSpace .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+div.recommendations .cards .OrganiseYourSpace .text {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+  padding-right: 28px;
+}
+div.recommendations .cards .unknowncard {
+  margin-bottom: 103px;
+}
+div.recommendations .cards .unknowncard .arrow {
+  width: 20px;
+  height: 20px;
+}
+div.recommendations .background {
+  background-color: #FFF8F2;
+}
+
+div.PopularRecipes {
+  margin-top: 172px;
+}
+div.PopularRecipes .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.PopularRecipes .head .title {
+  margin-bottom: 60px;
+  padding-left: 170px;
+}
+div.PopularRecipes .head .title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #303036;
+}
+div.PopularRecipes .head .seeall {
+  margin-bottom: 65px;
+  padding-right: 175px;
+}
+div.PopularRecipes .head .seeall a {
+  text-decoration: none;
+  color: #595C69;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+div.PopularRecipes .head .seeall a:hover {
+  color: rgb(65, 113, 255);
+}
+div.PopularRecipes .cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+div.PopularRecipes .cards .ButternutSquashSoup {
+  margin-bottom: 100px;
+  padding-left: 30px;
+}
+div.PopularRecipes .cards .ButternutSquashSoup .category {
+  padding-top: 32px;
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.PopularRecipes .cards .ButternutSquashSoup .title a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.2s;
+}
+div.PopularRecipes .cards .ButternutSquashSoup .title a:hover {
+  color: darkgreen;
+}
+div.PopularRecipes .cards .ButternutSquashSoup .time {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+}
+div.PopularRecipes .cards .BerriesSmoothie {
+  margin-bottom: 100px;
+}
+div.PopularRecipes .cards .BerriesSmoothie .category {
+  padding-top: 32px;
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.PopularRecipes .cards .BerriesSmoothie .title a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.2s;
+}
+div.PopularRecipes .cards .BerriesSmoothie .title a:hover {
+  color: darkgreen;
+}
+div.PopularRecipes .cards .BerriesSmoothie .time {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+}
+div.PopularRecipes .cards .VegetarianDumplings {
+  margin-bottom: 100px;
+  padding-right: 30px;
+}
+div.PopularRecipes .cards .VegetarianDumplings .category {
+  padding-top: 32px;
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.PopularRecipes .cards .VegetarianDumplings .title a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.2s;
+}
+div.PopularRecipes .cards .VegetarianDumplings .title a:hover {
+  color: darkgreen;
+}
+div.PopularRecipes .cards .VegetarianDumplings .time {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+}
+div.PopularRecipes .cards .TropicalSmoothieBowl {
+  margin-bottom: 150px;
+  padding-left: 30px;
+}
+div.PopularRecipes .cards .TropicalSmoothieBowl .category {
+  padding-top: 32px;
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.PopularRecipes .cards .TropicalSmoothieBowl .title a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.2s;
+}
+div.PopularRecipes .cards .TropicalSmoothieBowl .title a:hover {
+  color: darkgreen;
+}
+div.PopularRecipes .cards .TropicalSmoothieBowl .time {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+}
+div.PopularRecipes .cards .SpicyNoodles {
+  margin-bottom: 150px;
+}
+div.PopularRecipes .cards .SpicyNoodles .category {
+  padding-top: 32px;
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.PopularRecipes .cards .SpicyNoodles .title a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.2s;
+}
+div.PopularRecipes .cards .SpicyNoodles .title a:hover {
+  color: darkgreen;
+}
+div.PopularRecipes .cards .SpicyNoodles .time {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+}
+div.PopularRecipes .cards .AvocadoToast {
+  margin-bottom: 150px;
+  padding-right: 30px;
+}
+div.PopularRecipes .cards .AvocadoToast .category {
+  padding-top: 32px;
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.PopularRecipes .cards .AvocadoToast .title a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.2s;
+}
+div.PopularRecipes .cards .AvocadoToast .title a:hover {
+  color: darkgreen;
+}
+div.PopularRecipes .cards .AvocadoToast .time {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+}
+
+div.newsletter {
+  display: flex;
+  background-color: #FFF8F2;
+  margin-bottom: 150px;
+}
+div.newsletter .content {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  flex-basis: 50%;
+  margin-top: 81px;
+  margin-left: 92px;
+}
+div.newsletter .content h1.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+div.newsletter .content h1.text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+div.newsletter .button {
+  flex-basis: 50%;
+  text-align: right;
+  padding: 122px 92px;
+}
+div.newsletter .button button.emailadd {
+  height: 56px;
+  border-radius: 4px;
+  display: inline-block;
+  background-color: #FFBF9D;
+  color: white;
+  font-size: 15;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+div.newsletter .button button.emailadd:hover {
+  background-color: rgb(142, 101, 8);
+}
+
+div.more-info {
+  margin-bottom: 150px;
+  display: flex;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+div.more-info div.content {
+  padding: 96px;
+}
+div.more-info div.content .image {
+  width: 352px;
+  height: 500px;
+}
+div.more-info div.content .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: #303036;
+}
+div.more-info div.content .subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #9FA1AA;
+  margin-top: 10px;
+}
+div.more-info div.content .text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 32px;
+  width: 665px;
+}
+div.more-info div.content .button {
+  width: 220px;
+  height: 56px;
+  background-color: #595C69;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: 32px;
+  transition: 0.2s;
+}
+div.more-info div.content .button:hover {
+  background-color: #1e2e5c;
+}
+
+div.copyrightlinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 42px 90px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+div.copyrightlinks .copyright h1 {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #9FA1AA;
+  text-align: start;
+}
+div.copyrightlinks .links a {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: end;
+  text-decoration: none;
+  color: #9FA1AA;
+}
+div.copyrightlinks .links a:hover {
+  color: #773800;
+}
+
+div.Recipe {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 105px;
+  padding: 80px;
+}
+div.Recipe img {
+  padding: 0 0 50px;
+}
+div.Recipe .info {
+  margin-top: 215px;
+  margin-right: 50px;
+  width: 533px;
+  height: 320px;
+}
+div.Recipe .info .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  color: #303036;
+  font-weight: 600;
+}
+div.Recipe .info .time {
+  margin-top: 40px;
+  margin-bottom: 105px;
+}
+div.Recipe .info .time h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #595C69;
+  padding-top: 29px;
+}
+div.Recipe .info .category {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #595C69;
+}
+div.Recipe .info .ingredients {
+  background-color: #FFF8F2;
+  padding-top: 86px;
+}
+div.Recipe .info .ingredients h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #595C69;
+  padding-bottom: 25px;
+}
+div.Recipe .info .ingredients .food {
+  padding-bottom: 50px;
+}
+
+.preparation {
+  margin-top: 270px;
+  padding-left: 400px;
+  padding-right: 141px;
+  width: 1017px;
+  margin-bottom: 150px;
+}
+.preparation .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #595C69;
+}
+.preparation .Paragraphs h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 40px;
+}
+.preparation .Paragraphs span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #595C69;
+  padding-right: 14px;
+}
+
+div.recommendations2 .more-info {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #303036;
+  padding-left: 90px;
+  padding-top: 60px;
+}
+div.recommendations2 .cards {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 89px;
+}
+div.recommendations2 .cards .MisoTofuSoup {
+  margin-bottom: 103px;
+}
+div.recommendations2 .cards .MisoTofuSoup .category {
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.recommendations2 .cards .MisoTofuSoup .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+div.recommendations2 .cards .MisoTofuSoup .text {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+  padding-right: 34px;
+}
+div.recommendations2 .cards .ThaiSoup {
+  margin-bottom: 103px;
+}
+div.recommendations2 .cards .ThaiSoup .category {
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.recommendations2 .cards .ThaiSoup .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+div.recommendations2 .cards .ThaiSoup .text {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+  padding-right: 34px;
+}
+div.recommendations2 .cards .SpicyTomatoSoup {
+  margin-bottom: 103px;
+}
+div.recommendations2 .cards .SpicyTomatoSoup .category {
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.recommendations2 .cards .SpicyTomatoSoup .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+div.recommendations2 .cards .SpicyTomatoSoup .text {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+  padding-right: 28px;
+}
+div.recommendations2 .cards .unknowncard {
+  margin-bottom: 103px;
+}
+div.recommendations2 .cards .unknowncard .arrow {
+  width: 20px;
+  height: 20px;
+}
+
+div.Lifestyle .cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  padding: 0 20px;
+  gap: 30px;
+  max-width: 1400px;
+  margin: 100px auto 0 auto;
+}
+@media (max-width: 1400px) {
+  div.Lifestyle .cards {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (max-width: 980px) {
+  div.Lifestyle .cards {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 640px) {
+  div.Lifestyle .cards {
+    grid-template-columns: auto;
+  }
+}
+div.Lifestyle .cards .card .image img {
+  width: 100%;
+}
+div.Lifestyle .cards .card .category {
+  font-family: "Montserrat", sans-serif;
+  color: #9FA1AA;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+div.Lifestyle .cards .card .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+div.Lifestyle .cards .card .text {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+  padding-bottom: 100px;
+  padding-right: 32px;
+}
+
+div.pagination {
+  text-align: center;
+  padding-bottom: 150px;
+}
+div.pagination a {
+  height: 19;
+  padding: 40px;
+  color: #707279;
+  font-size: 16px;
+  width: 338;
+  text-decoration: none;
+  font-family: "Montserrat-medium", sans-serif;
+}
+div.pagination a:hover {
+  color: rgb(138, 229, 20);
+}
+div.pagination .page1 {
+  font-size: 16px;
+  font-family: "Montserrat-semibold", sans-serif;
+  color: #FFBF9D;
+}

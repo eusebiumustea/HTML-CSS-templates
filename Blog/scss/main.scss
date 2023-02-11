@@ -1,0 +1,801 @@
+
+html, body{
+    margin: 0;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding:18px 50px;
+    background: #595C69;
+    border:0;
+    color: #fff;
+    border-radius:4px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+} 
+header {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+
+div.navbar {
+    display:flex;
+    background-color: white;
+    align-items: center;
+    justify-content:space-between;
+    padding: 23px 80px;
+    
+    .logo {
+        text-align: start;
+        
+       a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Mrs Saint Delafield', sans-serif; 
+        font-size: 32px;
+        
+       }
+    }
+    .list {
+        text-align: end;
+        a {
+            text-decoration: none;
+            color: #707070;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            justify-content: space-between;
+            padding-inline: 30px; 
+            &:hover {
+                color: rgb(141, 153, 206);
+            }
+        }
+        }
+}
+}
+    div.info {
+    padding: 80px 199px;    
+        .title {
+            h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 26px;
+            color: #303036;
+            font-weight: 500;
+            } 
+        }
+        .text {
+        
+           h1 { 
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            color: black;
+            font-weight: 300;
+            padding-top: 31px;
+            padding-bottom: 20px;
+            padding-right: 640px;
+           }  
+        }
+        .button {
+            font-family: 'Montserrat', sans-serif;
+            display: inline-block;
+            padding:18px 50px;
+            background: #595C69;
+            border:0;
+            border-radius:4px;
+            font-size: 15px;
+            font-weight: 500;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover {
+                background-color: #1e2e5c;
+            }
+        }
+  }
+  div.recommendations {
+  background-color: #FFF8F2;
+    .cards {    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 89px;   
+    transform: translateY(-59px);
+        .HowToPickThePerfectPeach {
+            margin-bottom: 103px;    
+            .category {
+                font-family: 'Montserrat', sans-serif;
+                color: #9FA1AA;
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 12px;
+            
+            }
+            .title {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 12px;
+            }
+            .text {
+                font-size: 15px;
+                font-weight: 300;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 12px;
+                padding-right: 34px;
+                
+                
+            }
+        }
+        .MinimalistKitchen {
+            margin-bottom: 103px;   
+            .category {
+                font-family: 'Montserrat', sans-serif;
+                color: #9FA1AA;
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 12px;
+            
+            }
+            .title {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 12px;
+            }
+            .text {
+                font-size: 15px;
+                font-weight: 300;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 12px;
+                padding-right: 34px;
+            }
+        }
+        .OrganiseYourSpace {
+            margin-bottom: 103px;
+            .category {
+                font-family: 'Montserrat', sans-serif;
+                color: #9FA1AA;
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 12px;
+            
+            }
+            .title {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 12px;
+            }
+            .text {
+                font-size: 15px;
+                font-weight: 300;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 12px;
+                padding-right: 28px;
+            }
+        }
+        .unknowncard {
+            margin-bottom: 103px;        
+            .arrow {
+                width: 20px;
+                height: 20px;
+            }
+        }
+           
+  }
+  .background {
+    background-color: #FFF8F2;
+  }
+}
+div.PopularRecipes {
+margin-top: 172px;
+.head{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+    .title {
+    margin-bottom: 60px;
+    padding-left: 170px; 
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            color: #303036;
+        }
+    }
+    .seeall {
+    margin-bottom: 65px;
+    padding-right: 175px; 
+        a {
+            text-decoration: none;
+            color: #595C69;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            &:hover {
+                color: rgb(65, 113, 255);
+                
+            }
+        }
+        
+    }
+}
+    .cards { 
+        display: grid;  
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+        margin-left: 80px;
+        margin-right: 80px; 
+        .ButternutSquashSoup {
+        margin-bottom: 100px;
+        padding-left: 30px;     
+            .category {
+                padding-top: 32px;
+                font-family: 'Montserrat', sans-serif;
+                color: #9FA1AA;
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 12px;
+            }
+            .title {
+               a {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 12px;
+                text-decoration: none;
+                color: #000000;
+                transition: 0.2s;
+                &:hover {
+                    color: darkgreen;
+                }
+               }
+            }
+            .time {
+                font-size: 15px;
+                font-weight: 300;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 12px;
+            }
+        }
+        .BerriesSmoothie {
+        margin-bottom: 100px; 
+            .category {
+                padding-top: 32px;
+                font-family: 'Montserrat', sans-serif;
+                color: #9FA1AA;
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 12px;
+            }
+            .title {
+               a {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 12px;
+                text-decoration: none;
+                color: #000000;
+                transition: 0.2s;
+                &:hover {
+                    color: darkgreen;
+                }       
+               }
+            }
+            .time {
+                font-size: 15px;
+                font-weight: 300;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 12px;
+            }
+        }
+        .VegetarianDumplings {
+            margin-bottom: 100px;
+            padding-right: 30px; 
+            .category {
+                padding-top: 32px;
+                font-family: 'Montserrat', sans-serif;
+                color: #9FA1AA;
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 12px;
+            }
+            .title {
+               a {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 12px;
+                text-decoration: none;
+                color: #000000;
+                transition: 0.2s;
+                &:hover {
+                    color: darkgreen;
+                }
+               }
+            }
+            .time {
+                font-size: 15px;
+                font-weight: 300;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 12px;
+            }
+        }
+        .TropicalSmoothieBowl {
+            margin-bottom: 150px;
+            padding-left: 30px; 
+            .category {
+                padding-top: 32px;
+                font-family: 'Montserrat', sans-serif;
+                color: #9FA1AA;
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 12px;
+            }
+            .title {
+               a {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 12px;
+                text-decoration: none;
+                color: #000000;
+                transition: 0.2s;
+                &:hover {
+                    color: darkgreen;
+                }
+               }
+            }
+            .time {
+                font-size: 15px;
+                font-weight: 300;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 12px;
+            }
+        }
+        .SpicyNoodles {
+            margin-bottom: 150px; 
+            .category {
+                padding-top: 32px;
+                font-family: 'Montserrat', sans-serif;
+                color: #9FA1AA;
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 12px;
+            }
+            .title {
+               a {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 12px;
+                text-decoration: none;
+                color: #000000;
+                transition: 0.2s;
+                &:hover {
+                    color: darkgreen;
+                }
+               }
+            }
+            .time {
+                font-size: 15px;
+                font-weight: 300;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 12px;
+            }
+        }
+        .AvocadoToast {
+            margin-bottom: 150px;
+            padding-right: 30px; 
+            .category {
+                padding-top: 32px;
+                font-family: 'Montserrat', sans-serif;
+                color: #9FA1AA;
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 12px;
+            }
+            .title {
+               a {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 12px;
+                text-decoration: none;
+                color: #000000;
+                transition: 0.2s;
+                &:hover {
+                    color: darkgreen;
+                }
+               }
+            }
+            .time {
+                font-size: 15px;
+                font-weight: 300;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 12px;
+            }
+        }
+    }
+}
+div.newsletter {
+    display:flex;
+    background-color: #FFF8F2;
+    margin-bottom: 150px;
+   .content{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        flex-basis: 50%;
+        margin-top: 81px;
+        margin-left: 92px;
+        
+        
+        h1.title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        h1.text {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            
+        }
+   }
+   .button{
+    flex-basis: 50%;
+    text-align: right;
+    padding: 122px 92px;
+    button.emailadd {
+         height: 56px;
+         border-radius:4px;
+         display: inline-block;
+         background-color: #FFBF9D;
+         color: white;
+         font-size: 15;
+         text-align: center;
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 600;
+         border: none;
+         cursor: pointer;
+         transition: 0.2s;
+         &:hover {
+            background-color: rgb(142, 101, 8);
+         }
+    }
+   }
+   }
+   div.more-info {
+    margin-bottom: 150px;
+    display: flex;
+    padding-left: 240px;
+    padding-right: 240px;
+    div.content {
+        padding: 96px;    
+       .image {
+        width: 352px;
+        height: 500px;
+       }
+       .title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+        color: #303036;
+       } 
+       .subtitle {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: #9FA1AA;
+        margin-top: 10px;
+       }
+       .text {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        margin-top: 32px;
+        width: 665px;
+       }
+       .button {
+        width: 220px;
+        height: 56px;
+        background-color: #595C69;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        margin-top: 32px;
+        transition: 0.2s;
+        &:hover {
+           background-color: #1e2e5c;
+        }
+       }
+    }
+    }
+    div.copyrightlinks {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 42px 90px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);    
+            .copyright {
+               
+                h1 {
+                    font-size: 13px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 500;
+                    color: #9FA1AA;
+                    text-align: start;
+                }
+            }
+            .links {   
+                a {
+                    font-size: 13px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 500;
+                    text-align: end;
+                    text-decoration: none;
+                    color: #9FA1AA;
+                    &:hover {
+                        color: #773800 ;
+                    }
+                 }
+            }
+        }
+        div.Recipe { 
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 105px;
+        padding:  80px;
+            img {    
+               padding: 0 0 50px;
+            }   
+            .info {
+            margin-top: 215px;
+            margin-right: 50px;
+            width: 533px;
+            height: 320px;
+                .title {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 26px;
+                        color: #303036;
+                        font-weight: 600;                   
+                }
+                .time {
+                margin-top: 40px;
+                margin-bottom: 105px;
+                
+                    h1 {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: #595C69;
+                        padding-top: 29px;
+                    }
+                }
+                .category {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: #595C69;
+                }
+            
+                .ingredients {
+                background-color: #FFF8F2;
+                padding-top: 86px;
+                    h1 {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 15px;
+                        font-weight: 500;
+                        color: #595C69;
+                        padding-bottom: 25px;
+                    }
+                    .food {
+                        padding-bottom: 50px;
+                    }
+                }
+            }
+            }
+            .preparation {
+            margin-top: 270px;
+            padding-left: 400px;
+            padding-right: 141px;
+            width: 1017px;
+            margin-bottom: 150px;
+                .title {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #595C69;
+                }
+                .Paragraphs {
+                h1 {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 15px;
+                    font-weight: 300;
+                    padding-top: 40px;
+                    
+                }
+                span {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #595C69;
+                    padding-right: 14px;
+                }
+               
+            }
+        }
+        div.recommendations2 {  
+        .more-info {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                font-size: 24px;
+                color: #303036;
+                padding-left: 90px;
+                padding-top: 60px;
+            }   
+              .cards {      
+              display: flex;
+              justify-content: space-between;
+              margin-left: 89px;   
+                  .MisoTofuSoup {
+                      margin-bottom: 103px;    
+                      .category {
+                          font-family: 'Montserrat', sans-serif;
+                          color: #9FA1AA;
+                          font-size: 12px;
+                          font-weight: 400;
+                          margin-bottom: 12px;
+                      
+                      }
+                      .title {
+                          font-family: 'Montserrat', sans-serif;
+                          font-size: 18px;
+                          font-weight: 600;
+                          margin-bottom: 12px;
+                      }
+                      .text {
+                          font-size: 15px;
+                          font-weight: 300;
+                          font-family: 'Montserrat', sans-serif;
+                          margin-top: 12px;
+                          padding-right: 34px;
+                          
+                          
+                      }
+                  }
+                  .ThaiSoup {
+                      margin-bottom: 103px;   
+                      .category {
+                          font-family: 'Montserrat', sans-serif;
+                          color: #9FA1AA;
+                          font-size: 12px;
+                          font-weight: 400;
+                          margin-bottom: 12px;
+                      
+                      }
+                      .title {
+                          font-family: 'Montserrat', sans-serif;
+                          font-size: 18px;
+                          font-weight: 600;
+                          margin-bottom: 12px;
+                      }
+                      .text {
+                          font-size: 15px;
+                          font-weight: 300;
+                          font-family: 'Montserrat', sans-serif;
+                          margin-top: 12px;
+                          padding-right: 34px;
+                      }
+                  }
+                  .SpicyTomatoSoup {
+                      margin-bottom: 103px;
+                      .category {
+                          font-family: 'Montserrat', sans-serif;
+                          color: #9FA1AA;
+                          font-size: 12px;
+                          font-weight: 400;
+                          margin-bottom: 12px;
+                      
+                      }
+                      .title {
+                          font-family: 'Montserrat', sans-serif;
+                          font-size: 18px;
+                          font-weight: 600;
+                          margin-bottom: 12px;
+                      }
+                      .text {
+                          font-size: 15px;
+                          font-weight: 300;
+                          font-family: 'Montserrat', sans-serif;
+                          margin-top: 12px;
+                          padding-right: 28px;
+                      }
+                  }
+                  .unknowncard {
+                      margin-bottom: 103px;        
+                      .arrow {
+                          width: 20px;
+                          height: 20px;
+                      }
+                  }
+                     
+            }
+        }
+div.Lifestyle {
+        .cards {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-between;
+            padding:0 20px;
+            gap:30px;
+            max-width: 1400px;
+            margin: 100px auto 0 auto;
+            @media (max-width: 1400px){
+                grid-template-columns: auto auto auto;
+            } 
+            
+            @media (max-width: 980px){
+                grid-template-columns: auto auto;
+            }
+            
+            @media (max-width: 640px){
+                grid-template-columns: auto;
+            }
+            .card {
+                    .image img {
+                        width: 100%;
+                    }
+                    
+                    .category {
+                        font-family: 'Montserrat', sans-serif;
+                        color: #9FA1AA;
+                        font-size: 12px;
+                        font-weight: 400;
+                        margin-bottom: 12px;
+                    }
+                    .title {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 12px;
+                    }
+                    
+                    .text {
+                        font-size: 15px;
+                        font-weight: 300;
+                        font-family: 'Montserrat', sans-serif;
+                        margin-top: 12px;
+                        padding-bottom: 100px;
+                        padding-right: 32px;
+                        
+                    }
+                
+                }
+            }
+}
+
+div.pagination {
+text-align: center;
+padding-bottom: 150px;
+    a {
+        height: 19;
+        padding: 40px;
+        color: #707279;
+        font-size: 16px;
+        width: 338;
+        text-decoration: none;
+        font-family: 'Montserrat-medium', sans-serif; 
+    &:hover {
+        color: rgb(138, 229, 20);
+    }
+    }
+    .page1 {
+        font-size: 16px;
+        font-family: 'Montserrat-semibold', sans-serif; 
+        color: #FFBF9D
+    }
+   
+}
